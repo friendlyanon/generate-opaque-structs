@@ -1,0 +1,11 @@
+{
+  "name": "generate-opaque-structs",
+  "version-semver": "0.0.0",
+  "dependencies": [
+    {
+      "name": "check-type-align",
+      "host": true
+    }
+  ],
+  "default-features": []
+}

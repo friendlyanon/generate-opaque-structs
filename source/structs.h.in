@@ -1,0 +1,11 @@
+#pragma once
+
+#include <stdbool.h>
+
+@defines@
+
+@structs@
+
+struct example init_example(void);
+
+bool peek_example(const struct example* example);
