@@ -27,5 +27,9 @@ jobs:
     - name: Configure
       run: cmake --preset=ci-${{ matrix.os }}
 
+    - name: Print generated header
+      shell: pwsh
+      run: gc build/opaque/structs.h
+
     - name: Run
       run: cmake --build build --config Release -j 2 -t run-exe
